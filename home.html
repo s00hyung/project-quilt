@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Bootstrap & SooHyung Lee">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>Virtual Quilt</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About This Project</h4>
+            <p class="text-muted">This is a quilt project for ENGL 1102 in Georgia Tech. Our project is a quilt that stitched together scenes from Frankenstein. We chose key scenes from the novel and then picked out images that represented each one.
+                <br><br>
+            This specific website is created to provides interactive interface to our quilt for everyone.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="mailto:soohl@gatech.edu" class="text-white">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          <strong>Vritual Quilt</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Virtual Quilt</h1>
+        <p class="lead text-muted">This is an virtual online version of our quilt. Each represents a key scene from the novel Frankenstein.</p>
+        <p>
+          <button type="button"class="btn btn-primary my-2" data-toggle="modal" data-target="#Modal_0">Checkout Our Real Quilt</button>
+          <!-- Modal -->
+          <div class="modal fade" id="Modal_0" tabindex="-1" role="dialog" aria-labelledby="Modal_0_Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="Modal_0_Label">Image of real quilt</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./static/main.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+      </div>
+    </section>
+
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/1.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_1">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_1" tabindex="-1" role="dialog" aria-labelledby="Modal_1_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_1_Label">The Arctic</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/1.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>cavemancircus.com. “Historical Photos Are So Intense (44 Pics).” Izismile.com, 25 Jan. 2019, izismile.com/2019/01/25/historical_photos_are_so_intense_44_pics.html.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">The Arctic</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/2.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_2">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_2" tabindex="-1" role="dialog" aria-labelledby="Modal_2_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_2_Label">The Letter</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/2.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>4th Estate Bank. “Old Envelope | Paper | Lettering, Handwritten Letters, Love Letters.” Pinterest, www.pinterest.com/pin/217298750741582732/.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">The Letter</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/3.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_3">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_3" tabindex="-1" role="dialog" aria-labelledby="Modal_3_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_3_Label">Children Playing</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/3.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Tsang, Clement. “The Loving Couple - Boy and Girl Painting.” Saatchi Art, www.saatchiart.com/art/Painting-The-Loving-Couple-Boy-and-Girl/397624/2805819/view.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Children Playing</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/4.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_4">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_4" tabindex="-1" role="dialog" aria-labelledby="Modal_4_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_4_Label">Victor In Chemistry</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/4.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Store, Strand Book. “200 Years of Frankenstein.” Medium, Medium, 25 Oct. 2018, medium.com/@strandbookstore/200-years-of-frankenstein-1187d559da07.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Victor In Chemistry</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/5.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_5">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_5" tabindex="-1" role="dialog" aria-labelledby="Modal_5_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_5_Label">Creation Of Monster</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/5.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>“Graverobber.” Graverobber - DominionStrategy Wiki, Wikipedia , 1 Oct. 2018, wiki.dominionstrategy.com/index.php/Graverobber.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Creation Of Monster</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/6.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_6">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_6" tabindex="-1" role="dialog" aria-labelledby="Modal_6_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_6_Label">Yellow Eyes of Monster</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/6.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Fletcher, Jenna. “Yellow Eyes: Causes in Newborns, Children, and Adults.” Medical News Today, MediLexicon International, 25 July 2018, www.medicalnewstoday.com/articles/312403.php.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Yellow Eyes of Monster</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/7.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_7">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_7" tabindex="-1" role="dialog" aria-labelledby="Modal_7_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_7_Label">Murder of Victor’s brother</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/7.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>“Tombstone #1845236.” Blank Tombstone by DamselStock on Clipart Library - Clip Art Library, clipart-library.com/clipart/8cGbqerLi.htm.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Murder of Victor’s brother</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/8.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_8">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_8" tabindex="-1" role="dialog" aria-labelledby="Modal_8_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_8_Label">Monster In Hut</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/8.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Wikimedia Commons. “File:Swiss Village (14769059075).Jpg.” Wikimedia Commons, Wikimedia , 1 July 2014, commons.wikimedia.org/wiki/File:Swiss_Village_(14769059075).jpg.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Monster In Hut</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/9.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_9">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_9" tabindex="-1" role="dialog" aria-labelledby="Modal_9_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_9_Label">Monster Reading A Book</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/9.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Charles, Ron. “Mary Shelley's 'Frankenstein' Comes ALIVE on Halloween.” The Washington Post, WP Company, 29 Oct. 2018, www.washingtonpost.com/entertainment/books/mary-shelleys-frankenstein-comes-alive-on-halloween/2018/10/29/0bf09da8-db84-11e8-b732-3c72cbf131f2_story.html?noredirect=on&utm_term=.49d2971695d8.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Monster Reading A Book</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/10.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_10">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_10" tabindex="-1" role="dialog" aria-labelledby="Modal_10_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_10_Label">Monster Spying Villagers</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/10.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>“The DeLacey Family.” Fandom, mary-shelley.fandom.com/wiki/The_DeLacey_Family.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Monster Spying Villagers</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/11.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_11">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_11" tabindex="-1" role="dialog" aria-labelledby="Modal_11_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_11_Label">Monster Running Away</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/11.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Haydon, Ian. “Bioengineers Today Emphasize the Crucial Ingredient Dr. Frankenstein Forgot – Responsibility.” The Conversation, 19 Dec. 2018, theconversation.com/bioengineers-today-emphasize-the-crucial-ingredient-dr-frankenstein-forgot-responsibility-91735.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Monster Running Away</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/12.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_12">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_12" tabindex="-1" role="dialog" aria-labelledby="Modal_12_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_12_Label">Monster Asking For A Wife</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/12.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>RestrictedWearzBSI. “Bride of Frankenstein Vinyl Decal.” Etsy, www.etsy.com/pl/listing/255015171/bride-of-frankenstein-vinyl-decal.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Monster Asking For A Wife</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+              <img src="./static/13.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_13">View</button>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="Modal_13" tabindex="-1" role="dialog" aria-labelledby="Modal_13_Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="Modal_13_Label">Elizabeth’s Death</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Image</h5>
+                          <img src="./static/13.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                          <hr>
+                          <h5>Quilt Description</h5>
+                          <p>...</p>
+                          <hr>
+                          <h5>Citation</h5>
+                          <p><i>Renzulli, Kerri. “Why You Can't Figure Out What a Funeral Costs.” Money, 19 Oct. 2015, money.com/money/4078001/funeral-cost-comparison/.</i></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="text-muted">Elizabeth’s Death</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+             <img src="./static/14.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+             <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_14">View</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="Modal_14" tabindex="-1" role="dialog" aria-labelledby="Modal_14_Label" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="Modal_14_Label">Victor Running Away</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Image</h5>
+                        <img src="./static/14.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                        <hr>
+                        <h5>Quilt Description</h5>
+                        <p>...</p>
+                        <hr>
+                        <h5>Citation</h5>
+                        <p><i>HUMANFITPROJECT Editors . “4 Tips for Your First Hike Deep into the Mountains.” HUMANFITPROJECT, 18 Aug. 2015, humanfitproject.com/leisure-style/travel/4-tips-for-hiking-newbies/.</i></p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <small class="text-muted">Victor Running Away</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 shadow-sm">
+           <img src="./static/15.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+           <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_15">View</button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="Modal_15" tabindex="-1" role="dialog" aria-labelledby="Modal_15_Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Modal_15_Label">Victor Dying</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Image</h5>
+                      <img src="./static/15.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                      <hr>
+                      <h5>Quilt Description</h5>
+                      <p>...</p>
+                      <hr>
+                      <h5>Citation</h5>
+                      <p><i>“Danny Boyle's Frankenstein Is a Monster Success.” Evening Standard, 10 Apr. 2012, www.standard.co.uk/go/london/theatre/danny-boyles-frankenstein-is-a-monster-success-7423726.html.</i></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <small class="text-muted">Victor Dying</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card mb-4 shadow-sm">
+         <img src="./static/16.png" width="100%" height="225" focusable="false" role="img" class="card-img-top" alt="...">
+         <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#Modal_16">View</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal_16" tabindex="-1" role="dialog" aria-labelledby="Modal_16_Label" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal_16_Label">Monster Running Away</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Image</h5>
+                    <img src="./static/16.png" width="100%" focusable="false" role="img" class="card-img-top" alt="...">
+                    <hr>
+                    <h5>Quilt Description</h5>
+                    <p>...</p>
+                    <hr>
+                    <h5>Citation</h5>
+                    <p><i>Wainwright, Chris. “LightWorks: Where Ice Come To Die – Read More.” Light Works , 12 Sept. 2012, chriswainwright.com/2013/07/14/where-ice-come-to-die-read-more/.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Monster Running Away</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>By Ashley Thomas, Dylan Mason, Jessica Winkler, Kathryn McGaughey, and Soohyung Lee</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
+</html>
